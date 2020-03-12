@@ -63,17 +63,17 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+ul {
+  list-style-type: none;
+}
 a {
   text-decoration: none;
 }
-/* img:not(.nav-logo) {
-  width: 100%;
-  display: block;
-} */
-img {
+img:not(.nav-logo) {
   width: 100%;
   display: block;
 }
+
 h1,
 h2,
 h3,
@@ -142,18 +142,17 @@ p {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
 }
+
 /*
 =============== 
 Navbar
 ===============
 */
-
 /*
 =============== 
 Hero
 ===============
 */
-
 /*
 =============== 
 About
@@ -174,11 +173,13 @@ Services
 Featured Tours
 ===============
 */
+
 /*
 =============== 
 Contact
 ===============
 */
+
 /*
 =============== 
 Gallery
